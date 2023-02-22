@@ -1,0 +1,6 @@
+[babel.extractors]
+ckan = ckan.lib.extract:extract_ckan
+
+[ckan.plugins]
+gla_theme = ckanext.gla_theme.plugin:GlaThemePlugin
+
